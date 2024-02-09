@@ -1,0 +1,83 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg{ 
+    position: absolute;
+    z-index: -1;
+    top: 0rem;
+    right: -6rem;
+    height: 93vh;
+    object-fit: cover;
+}
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName{
+    color: black;
+}
+.introPara{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.btn{
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.85rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+.btn:hover{
+    background-color: #000;
+    color: white;
+}
+
+
+@media screen and (max-width:902px){
+    .bg{
+        right: -25vw;
+    }
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}
+
+
+@media screen and (max-width:480px){
+    .bg{
+        right: -39vw;
+    }
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}
+

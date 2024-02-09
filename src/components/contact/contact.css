@@ -1,0 +1,108 @@
+#contactPage{
+    min-height: calc(100vh - 50rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contactPageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 200;
+
+}
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm{
+    padding: 1rem;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    max-width:60rem;
+}
+
+.name , .email ,.phone, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+.contactForm input::placeholder{
+    color: rgb(8, 245, 8);
+    font-weight: 500;
+}
+.msg::placeholder{
+    color:rgb(21, 236, 21) ;
+    font-weight: 700;
+    font-size: large;
+    letter-spacing: 0.1rem;
+}
+
+.submitBtn{
+    background: white;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+
+.submitBtn:hover{
+    background: #000;
+    color: #fff;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.link{
+    object-fit: cover;
+    margin:0 0.5rem;
+    cursor: pointer;
+
+
+}
+
+.wha{
+    margin-top: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    color: #0000008f;
+    
+}
+.fac{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.8rem;
+    color: #0000008f;
+}
+.pho{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.8rem;
+    color: #0000008f;
+    border: 4px solid;
+    border-radius: 50%;
+    padding: 0.4rem;
+}
