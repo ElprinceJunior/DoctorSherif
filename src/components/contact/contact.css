@@ -10,7 +10,7 @@
     align-items: center;
 
 }
-
+ 
 .contactPageTitle{
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -57,6 +57,7 @@
 
 .submitBtn{
     background: white;
+    color: black;
     border: none;
     padding: 0.75rem 3.5rem;
     margin: 2rem;
