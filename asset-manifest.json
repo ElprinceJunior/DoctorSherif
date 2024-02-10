@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/DoctorSherif/static/css/main.9977d349.css",
-    "main.js": "/DoctorSherif/static/js/main.e4236027.js",
+    "main.css": "/DoctorSherif/static/css/main.650358f2.css",
+    "main.js": "/DoctorSherif/static/js/main.82859dd6.js",
     "static/media/bg.png": "/DoctorSherif/static/media/bg.63862031978643b6b027.png",
     "static/media/message.png": "/DoctorSherif/static/media/message.e00d73a2568d26d727a4.png",
     "static/media/menu.png": "/DoctorSherif/static/media/menu.5b86e351288f79eb789d.png",
     "index.html": "/DoctorSherif/index.html",
-    "main.9977d349.css.map": "/DoctorSherif/static/css/main.9977d349.css.map",
-    "main.e4236027.js.map": "/DoctorSherif/static/js/main.e4236027.js.map"
+    "main.650358f2.css.map": "/DoctorSherif/static/css/main.650358f2.css.map",
+    "main.82859dd6.js.map": "/DoctorSherif/static/js/main.82859dd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.9977d349.css",
-    "static/js/main.e4236027.js"
+    "static/css/main.650358f2.css",
+    "static/js/main.82859dd6.js"
   ]
 }
