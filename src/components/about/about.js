@@ -45,7 +45,7 @@ const About = () =>{
                 <div className="aboutBar">
                     <div className="aboutBartText">
                         <h2>Education <FontAwesomeIcon icon={faAward}/></h2>
-                        <p>MD<span className="aboutBarStyle">......</span>MRCS<span className="aboutBarStyle">......</span></p>
+                        <p>MD<span className="aboutBarStyle">......</span>MRCS</p>
                     </div>
                 </div>
 
