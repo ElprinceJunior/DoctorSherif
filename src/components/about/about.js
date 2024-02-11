@@ -2,6 +2,7 @@ import React from "react";
 import './about.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserDoctor,faAward,faStethoscope,faCrown } from "@fortawesome/free-solid-svg-icons";
+const PDF_FILE_URL = process.env.PUBLIC_URL + "/cv.pdf";
 
 
 
@@ -10,21 +11,10 @@ import { faUserDoctor,faAward,faStethoscope,faCrown } from "@fortawesome/free-so
 
 
 const About = () =>{
-    const PDF_FILE_URL = 'http://localhost:3000/cv.pdf';
-    const downloadFileAtURL=(url)=>{
-        fetch(url).then(response=>response.blob()).then(blob=>{
-            const blobURL = window.URL.createObjectURL(new Blob([blob]))
-            const fileName = url.split('/').pop()
-            const aTag =document.createElement('a')
-            aTag.href=blobURL;
-            aTag.setAttribute('download',fileName)
-            document.body.appendChild(aTag)
-            aTag.click();
-            aTag.remove();
-        })
-
-
-    }
+    const handleDownloadCV = () => {
+        // Open the PDF file in a new tab
+        window.open(PDF_FILE_URL, "_blank");
+      };
     return(
         <section id="about">
             <span className="aboutTitle">About me <FontAwesomeIcon icon={faUserDoctor}/></span>
@@ -35,7 +25,7 @@ const About = () =>{
                 <div className="aboutBar">
                     <div className="aboutBartText">
                         <h2>Experience <FontAwesomeIcon icon={faCrown}/></h2>
-                        <p>23 years Experience in Surgical oncology and general surgey operations                        <button className="downloadCvBtn" onClick={()=>{downloadFileAtURL(PDF_FILE_URL)}}>
+                        <p>23 years Experience in Surgical oncology and general surgey operations <button className="downloadCvBtn" onClick={()=>{handleDownloadCV(PDF_FILE_URL)}}>
                 Download CV
         </button> </p>
 

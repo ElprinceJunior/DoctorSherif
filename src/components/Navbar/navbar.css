@@ -75,7 +75,7 @@
     height: fit-content;
     min-width: 15rem;
     color: #000;
-    background-color: #fff;
+    background-color: #ffffffb6;
     border-radius: 1rem;
 }
 
@@ -83,7 +83,8 @@
     color: #fff;
     padding: 0.5rem 3rem;
     margin: 0.25rem;
-    background: black;
+    background: rgba(20, 20, 20, 0.904);
+    border-radius: 0.5rem;
 
 }
 

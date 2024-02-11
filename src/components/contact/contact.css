@@ -67,7 +67,7 @@
 }
 
 .submitBtn:hover{
-    background: rgb(49, 218, 49);
+    background: rgba(49, 218, 49, 0.938);
     color: #fff;
 }
 
@@ -90,6 +90,7 @@
     width: 3rem;
     height: 3rem;
     color: #0000008f;
+    transition: 0.7s ease;
     
 }
 .fac{
@@ -97,6 +98,7 @@
     height: 2.5rem;
     margin-top: 0.8rem;
     color: #0000008f;
+    transition: 0.7s ease;
 }
 .pho{
     width: 1.5rem;
@@ -106,4 +108,13 @@
     border: 4px solid;
     border-radius: 50%;
     padding: 0.4rem;
+    transition: 0.7s ease;
+} .wha:hover{
+    color: rgba(49, 218, 49, 0.938);
+}
+.fac:hover{
+    color: rgb(14, 14, 233);
+}
+.pho:hover{
+    color:rgba(49, 218, 49, 0.938);
 }
