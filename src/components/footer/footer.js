@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 
-const PDF_FILE_URL = "/cv.pdf"; // Update the PDF file path relative to the public folder
+const PDF_FILE_URL = process.env.PUBLIC_URL + "/cv.pdf";
 
 const Footer = () => {
   const handleDownloadCV = () => {
@@ -12,7 +12,6 @@ const Footer = () => {
   return (
     <footer className="footer">
       <button onClick={handleDownloadCV}>Download CV</button>
-      <a href="/cv.pdf">download cv</a>
       <div>copyright &#169; 2024 youssef. All right received.</div>
     </footer>
   );
